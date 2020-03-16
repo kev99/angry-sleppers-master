@@ -1,0 +1,51 @@
+body {
+    background: url(assets/fondo1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+
+
+footer {
+    font-family: 'Gupter', serif;
+    font-size: 1.5rem;
+    color: red;
+    background: black;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+::selection {
+    color: rgb(0, 217, 255);
+    background: black;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: rgb(0, 217, 255);
+    background: black;
+}
+
+
+/* font-family: 'Codystar', cursive;
+font-family: 'Frijole', cursive;
+font-family: 'Emblema One', cursive;
+font-family: 'Gupter', serif; 
+font-family: 'Lacquer', cursive;
+font-family: 'New Rocker', cursive
+font-family: 'Calligraffitti', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Gorditas', cursive;
+font-family: 'Alata', sans-serif;
+font-family: 'Charm', cursive;
+font-family: 'Orbitron', sans-serif;
+
+*/

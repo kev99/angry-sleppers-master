@@ -1,0 +1,29 @@
+img {
+    height: 283px;
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 0.6;
+}
+
+img:hover {
+    height: 283px;
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 1;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    color: rgb(20, 20, 20);
+    margin-bottom: 15px;
+}
+
+p {
+    font-family: 'Cinzel', serif;
+    color: rgb(173, 160, 160);
+    font-size: 2.2rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
