@@ -5,12 +5,12 @@ const path = require('path');
 const app = express();
  
 // Serve only the static files form the angularapp directory
-app.use(express.static(__dirname + '/angry-sleppers'));
+app.use(express.static(__dirname + '/dist/angry-sleppers'));
  
 app.get('/*', function(req,res) {
  
-res.sendFile(path.join(__dirname+'/angry-sleppers/index.html'));
+res.sendFile(path.join(__dirname+'/dist/angry-sleppers/index.html'));
 });
  
 // Start the app by listening on the default Heroku port
-app.listen(process.env.PORT || 5000);
+app.listen(process.env.PORT || 8080);
