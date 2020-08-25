@@ -3,42 +3,39 @@
     font-family: 'Lobster', cursive;
     font-size: 1.8rem;
 }
+.navbar-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    min-height: 8vh;
+    
 
+        }
 nav {
     box-shadow: 0px 0px 7px 0px rgba(255, 255, 255, 0.973);
     background: rgb(0, 0, 0);
     border-bottom: solid rgb(150, 150, 150);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
 }
 
 .nitem {
-    color: oldlace;
-    font-size: 1.5rem;
-    font-family: 'Orbitron', sans-serif;
-
-}
-
-.fa-facebook {
-    background: #3B5998;
     color: white;
-    height: 40px;
-    width: 35px;
-    padding: 10px;
+    font-family: 'Black Ops One', cursive;
+    text-decoration: none;
+    letter-spacing: 2px;
     font-size: 20px;
-    margin-left: 10px;
-    border-radius: 50%;
-    text-align: center;
-    margin-top: 5px;
+    align-items: center;
+
 }
 
-.fa-youtube {
-    background: #bb0000;
-    color: white;
-    height: 40px;
-    width: 35px;
-    padding: 5px;
-    font-size: 30px;
-    margin-left: 10px;
-    border-radius: 10%;
-    text-align: center;
-    margin-top: 5px;
+.ytbicon{
+    border-radius: 20%;
+}
+.rsoc{
+    display: flex;
+    justify-content: space-around;
+   
 }

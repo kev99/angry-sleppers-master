@@ -1,39 +1,28 @@
-<nav  *ngIf="visible" class="navbar navbar-expand-xl navbar-dark fixed-top ">
+<nav  *ngIf="visible" class="navbar navbar-expand-xl navbar-dark bg-dark sticky-top ">
     <a class="navbar-brand" href="start">
         <img src="assets/fractal-sobre-fondo-negro_95125-470.jpg" width="40" height="30"><span class="homenav ml-2">Angry Sleppers</span>
     </a>
-    <ul class="navbar-nav mx-auto">
-        <li class="nav-item mr-2">
-            <a href="shows" class="nav-link active nitem">Shows</a>
-        </li>
-        <li class="nav-item mr-2">
-            <a href="history" class="nav-link active nitem">Historia</a>
-        </li>
-        <li class="nav-item mr-2">
-            <a href="shop" class="nav-link active nitem">Tienda</a>
-        </li>
-        <li class="nav-item mr-2">
-            <a href="cds" class="nav-link active nitem">Albums</a>
-        </li>
-        <li class="nav-item mr-2">
-            <a href="/contact" class="nav-link active nitem">Contacto</a>
-        </li>
-        <li class="nav-item mr-2">
-            <a href="pictures" class="nav-link active nitem">Fotos</a>
-        </li>
-    </ul>
-    <div class="nav-item nav-link active">
-        <a href="https://www.youtube.com" target="_blank">        <img src="assets/youtube5.png"  width="45px" height="40px">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+        <div class="navbar-nav text-center">
+            <a class="nav-item nav-link active mr-2 ke nitem " href="shows">Shows<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active mr-2 ke nitem" href="history" >Historia</a>
+            <a class="nav-item nav-link active mr-2 nitem" href="shop" >Tienda</a>
+            <a class="nav-item nav-link active mr-2 nitem" href="cds">Albums</a>
+            <a class="nav-item nav-link active mr-2 nitem" href="/contact">Contacto</a>
+            <a class="nav-item nav-link active mr-2 nitem" href="pictures">Fotos</a>
+    <div class="rsoc d-flex d-flex justify-content-around ">
+        <a class="nav-item nav-link active" href="https://www.youtube.com" target="_blank">        <img src="assets/youtube5.png"  width="45px" height="40px">
         </a>
-    </div>
-    <div class="nav-item nav-link active ">
-        <a href="https://www.facebook.com"  target="_blank">     
+        <a class="nav-item nav-link active" href="https://www.facebook.com"  target="_blank">     
         <img src="assets/facebook.png" width="45px" height="40px"> 
         </a>
-    </div>
-    <div class="nav-item nav-link active ">
-        <a href="https://www.instagram.com"  target="_blank">       
+        <a class="nav-item nav-link active" href="https://www.instagram.com"  target="_blank">       
             <img src="assets/insta1.webp"  width="45px" height="40px">
         </a>
-    </div>
+</div>
+</div>
+</div>
 </nav>
