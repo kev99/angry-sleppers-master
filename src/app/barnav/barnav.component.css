@@ -1,6 +1,6 @@
 .homenav {
-    color: rgba(252, 252, 252, 0.973);
-    font-family: 'Lobster', cursive;
+    color: rgb(11, 172, 221);
+    font-family: 'Alata', sans-serif;
     font-size: 1.8rem;
 }
 .navbar-nav{
@@ -13,7 +13,7 @@
         }
 nav {
     box-shadow: 0px 0px 7px 0px rgba(255, 255, 255, 0.973);
-    background: rgb(0, 0, 0);
+    background: rgb(5, 5, 5);
     border-bottom: solid rgb(150, 150, 150);
     display: flex;
     justify-content: space-around;
@@ -22,13 +22,14 @@ nav {
 }
 
 .nitem {
-    color: white;
-    font-family: 'Black Ops One', cursive;
+    color: rgb(11, 172, 221);
+    font-family: 'Passero One', cursive;
     text-decoration: none;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 30px;
     align-items: center;
-
+    padding-top: 17px;
+    
 }
 
 .ytbicon{

@@ -15,7 +15,7 @@
 }
 
 .ingresar:hover {
-    background: rgb(245, 162, 115);
+    background: rgb(57, 17, 104);
     text-decoration: none;
     animation: spin 1.5s linear infinite;
 }
@@ -30,9 +30,10 @@
 }
 
 h1 {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Alata', sans-serif;
     font-size: 100px;
-    color: silver;
+    color: rgb(11, 172, 221);
+
 }
 
 audio {

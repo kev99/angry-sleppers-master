@@ -1,27 +1,16 @@
 h1 {
-    color: rgb(96, 255, 109);
-    font-family: 'Lobster', cursive;
+    color: rgb(11, 172, 221);
+    font-family: 'Alata', sans-serif;
     font-size: 90px;
-    text-shadow: 0px 10px 0px black;
-
 
   }
+  .textos{
+    background-color: rgba(0, 0, 0, 0.3);
+  }
 .text1 {
-    font-family: 'Lacquer', cursive;
+    font-family: 'Passero One', cursive;
     font-size: 1.9rem;
-    color: rgb(241, 20, 241);
-}
-
-.text2 {
-    font-family: 'New Rocker', cursive;
-    font-size: 1.9rem;
-    color: rgb(255, 44, 44);
-}
-
-.text3 {
-    font-size: 2rem;
-    font-family: 'Calligraffitti', cursive;
-    color: rgb(38, 248, 248);
+    color: rgb(40, 133, 113);
 }
 
 img {
