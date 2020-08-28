@@ -1,5 +1,5 @@
 body {
-    background: url(assets/fondo1.jpg) no-repeat center center fixed;
+    background: url(assets/f2.jpg) no-repeat center center fixed;
     background-size: cover;
     position: relative;
     min-height: 100vh;
@@ -13,14 +13,14 @@ html {
 
 
 footer {
-    font-family: 'Gupter', serif;
-    font-size: 1.5rem;
-    color: red;
-    background: black;
+    font-size: calc(0.1rem +0.1vw);
+    color: rgb(114, 102, 102);
+    background: rgb(26, 25, 25);
     text-align: right;
     position: absolute;
     bottom: 0;
     width: 100%;
+    
 }
 
 ::selection {
@@ -34,18 +34,3 @@ footer {
     background: black;
 }
 
-
-/* font-family: 'Codystar', cursive;
-font-family: 'Frijole', cursive;
-font-family: 'Emblema One', cursive;
-font-family: 'Gupter', serif; 
-font-family: 'Lacquer', cursive;
-font-family: 'New Rocker', cursive
-font-family: 'Calligraffitti', cursive;
-font-family: 'Cinzel', serif;
-font-family: 'Gorditas', cursive;
-font-family: 'Alata', sans-serif;
-font-family: 'Charm', cursive;
-font-family: 'Orbitron', sans-serif;
-
-*/
