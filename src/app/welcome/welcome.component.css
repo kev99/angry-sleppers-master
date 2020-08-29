@@ -1,7 +1,7 @@
 .ingresar {
     background: black;
     box-shadow: 0px 0px 20px 0px rgb(95, 90, 78);
-    color: rgba(209, 68, 68, 0.959);
+    color: rgba(16, 71, 54, 0.959);
     font-size: calc(1.3rem + 0.8vw);
     border-radius: 50%;
     line-height: 0;
@@ -15,8 +15,8 @@
 }
 
 .ingresar:hover {
-    background:    rgb(11, 172, 221);
-    color: rgb(12, 12, 12);
+    background:    rgb(0, 0, 0);
+    color: rgb(7, 219, 149);
     text-decoration: none;
     animation: spin 1.5s linear infinite;
 }
