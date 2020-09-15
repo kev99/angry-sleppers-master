@@ -1,5 +1,8 @@
 img {
     border-radius: 90%;
-    
-  
+}
+h1{
+    color: rgba(19, 153, 142, 0.89);
+    font-family: 'Alata', sans-serif;
+    font-size: calc(5.8vw);
 }

@@ -1,4 +1,6 @@
 .s1{
     font-family: 'Frijole', cursive;
-    color: rgb(0, 0, 0);
+    color: rgb(143, 35, 35);
+    font-size: calc(3.0rem + 3vw);
+
 }

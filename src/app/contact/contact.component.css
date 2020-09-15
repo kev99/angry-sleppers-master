@@ -1,9 +1,13 @@
 * {
     box-sizing: border-box;
 }
+h1{
+    font-size: 6vw;
+
+}
 
 .contact {
-    color: #fff;
+    color: rgba(19, 153, 142, 0.89);
     padding: 0 1.5em;
 }
 
@@ -16,44 +20,26 @@
 
 .logo {
     text-align: center;
-    margin-bottom: 20px;
-    animation: bounce 0.9s forwards;
-    text-shadow: 0px 10px 0px black;
-}
+    color: rgba(19, 153, 142, 0.89);
+    font-family: 'Alata', sans-serif;
+
+    }
 
 .contact-wrapper {
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
 }
 
 .contact-wrapper>* {
-    padding: 1em;
+    padding: 0.8em;
 }
 
-.contact-form {
-    background: #0f0f0f;
-}
+ 
 
 .contact-info {
-    background: rgb(83, 14, 14);
+    background: rgb(12, 12, 12);
 }
 
-.contact-form form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.contact-form form .block {
-    grid-column: 1 / 3;
-}
-
-.contact-form form button:hover,
-.contact-form form button:focus {
-    background: #0e86f7;
-    color: rgb(0, 0, 0);
-    transition: background-color 2s ease-out;
-    outline: 0;
-}
-
+ 
 .contact-info h4,
 .contact-info ul,
 .contact-info p {
@@ -61,65 +47,25 @@
     margin: 0 0 1rem 0;
 }
 
-.contact-form form p {
-    margin: 0;
-    padding: 1em;
-}
-
-.contact-form form button,
-.contact-form form input,
-.contact-form form textarea {
-    width: 100%;
-    padding: .7em;
-    border: none;
-    background: none;
-    outline: 0;
-    color: #fff;
-    border-bottom: 1px solid #09312e;
-}
-
-.contact-form form button {
-    background: #09312e;
-    border: 0;
-    text-transform: uppercase;
-    padding: 1em;
-}
+ 
 
 .contact-info ul {
     list-style: none;
     padding: 0;
 }
 
-.contact-info ul li {
-    padding: .3em;
-}
 
 
-/* LARGE SIZE */
 
-@media(min-width: 700px) {
-    .contact {
-        padding: 0 4em;
-    }
-    .contact-wrapper {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-    }
-    .contact-wrapper>* {
-        padding: 2em;
-    }
-}
 
 .contact-info span {
-    color: rgb(2, 1, 2);
-    font-family: 'Charm', cursive;
-    font-size: 1.5rem;
-}
-
-.lform {
+    color: rgba(19, 153, 142, 0.89);
     font-family: 'Alata', sans-serif;
+    font-size: calc(0.2rem + 1.8vw);
 }
 
-.lcont {
-    font-size: 1.3rem;
+.e1 {
+    font-family: 'Alata', sans-serif;
+    font-size: calc(0.2rem + 1.8vw);
+
 }
