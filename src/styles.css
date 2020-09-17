@@ -30,7 +30,7 @@ footer {
 
 ::-moz-selection {
     /* Code for Firefox */
-    color: rgb(0, 217, 255);
-    background: black;
+    color: rgb(0, 0, 0);
+    background: rgb(218, 54, 13);
 }
 

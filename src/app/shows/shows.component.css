@@ -1,6 +1,7 @@
 .s1{
-    font-family: 'Frijole', cursive;
-    color: rgb(143, 35, 35);
+    font-family: 'Alata', sans-serif;
+    color: rgb(36, 57, 253);
     font-size: calc(3.0rem + 3vw);
+    background-color: rgba(27, 23, 23, 0.7);
 
 }
